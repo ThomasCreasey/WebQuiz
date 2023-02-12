@@ -1,0 +1,119 @@
+{
+  "Where can you find this?": {
+    "type": "multi",
+    "image": "/img/needle.jpg",
+    "answers": [
+      {
+        "text": "Seattle",
+        "correct": true
+      },
+      {
+        "text": "Tokyo",
+        "correct": false
+      },
+      {
+        "text": "Paris",
+        "correct": false
+      },
+      {
+        "text": "London",
+        "correct": false
+      }
+    ]
+  },
+  "Which car manfacturer is this?": {
+    "type": "single",
+    "image": "/img/logo1.png",
+    "answers": ["opel", "opal"]
+  },
+  "What game is this from?": {
+    "type": "single",
+    "image": "/img/fortnite.jpg",
+    "answers": ["fortnite"]
+  },
+  "Which car manfacturer is this ?": {
+    "type": "multi",
+    "image": "/img/logo2.png",
+    "answers": [
+      {
+        "text": "Opel",
+        "correct": false
+      },
+      {
+        "text": "Bentley",
+        "correct": false
+      },
+      {
+        "text": "Land Rover",
+        "correct": false
+      },
+      {
+        "text": "Subaru",
+        "correct": false
+      },
+      {
+        "text": "Mini",
+        "correct": true
+      }
+    ]
+  },
+  "How old is this man?": {
+    "type": "multi",
+    "image": "/img/oldman.jpg",
+    "answers": [
+      {
+        "text": "12",
+        "correct": false
+      },
+      {
+        "text": "162",
+        "correct": true
+      },
+      {
+        "text": "97",
+        "correct": false
+      },
+      {
+        "text": "72",
+        "correct": false
+      }
+    ]
+  },
+  "What is the capital of France?": {
+    "type": "single",
+    "image": "/img/france.jpg",
+    "answers": ["paris"]
+  },
+  "Who is this?": {
+    "type": "single",
+    "image": "/img/amogus.png",
+    "answers": ["imposter", "sus", "amogus"]
+  },
+  "Which flag is this country from?": {
+    "type": "multi",
+    "image": "/img/flag1.png",
+    "answers": [
+      {
+        "text": "France",
+        "correct": false
+      },
+      {
+        "text": "Hungary",
+        "correct": true
+      },
+      {
+        "text": "Iran",
+        "correct": false
+      },
+      {
+        "text": "Romania",
+        "correct": false
+      }
+    ]
+  },
+  "This is young jim": {
+    "type": "single",
+    "image": "/img/jim.jpg",
+    "answers": ["jim", "young jim"]
+  }
+}

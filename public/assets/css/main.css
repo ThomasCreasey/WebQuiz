@@ -1,0 +1,11 @@
+body {
+  background-color: #212121;
+}
+
+.input-valid {
+  border: 0.1rem solid #4caf50;
+}
+
+.input-invalid {
+  border: 0.1rem solid #f44336;
+}

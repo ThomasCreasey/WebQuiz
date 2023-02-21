@@ -115,5 +115,86 @@
     "type": "single",
     "image": "/img/jim.jpg",
     "answers": ["jim", "young jim"]
+  },
+  "What is the capital of Luxembourg": {
+    "type": "multi",
+    "image": "/img/lux.jpg",
+    "answers": [
+      {
+        "text": "Amsterdam",
+        "correct": false
+      },
+      {
+        "text": "Vienna",
+        "correct": false
+      },
+      {
+        "text": "Luxembourg",
+        "correct": true
+      },
+      {
+        "text": "Stockholm",
+        "correct": false
+      }
+    ]
+  },
+  "What country is this?  ": {
+    "type": "multi",
+    "image": "/img/flag2.png",
+    "answers": [
+      {
+        "text": "Ivory Coast",
+        "correct": true
+      },
+      {
+        "text": "Ireland",
+        "correct": false
+      },
+      {
+        "text": "India",
+        "correct": false
+      },
+      {
+        "text": "Greenland",
+        "correct": false
+      }
+    ]
+  },
+  "Which company is this logo from?": {
+    "type": "single",
+    "image": "/img/logo3.png",
+    "answers": ["bp", "british petroleum"]
+  },
+  "Which company is this logo from? ": {
+    "type": "single",
+    "image": "/img/logo4.png",
+    "answers": ["costa", "costa coffee"]
+  },
+  "Which company is this logo from? ": {
+    "type": "single",
+    "image": "/img/logo5.png",
+    "answers": ["cola", "coka", "coca", "coca cola"]
+  },
+  "What country is this?   ": {
+    "type": "multi",
+    "image": "/img/flag3.png",
+    "answers": [
+      {
+        "text": "Germany",
+        "correct": false
+      },
+      {
+        "text": "Belgium",
+        "correct": true
+      },
+      {
+        "text": "Luxembourg",
+        "correct": false
+      },
+      {
+        "text": "Chad",
+        "correct": false
+      }
+    ]
   }
 }

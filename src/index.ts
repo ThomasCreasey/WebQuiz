@@ -43,8 +43,8 @@ app.get('/', (req: Request, res: Response) => {
   req.session.questions = Object.keys(
     JSON.parse(fs.readFileSync('questions.json', 'utf8')),
   )
-    .slice(0, 10)
-    .sort(() => 0.5 - Math.random());
+    .sort(() => 0.5 - Math.random())
+    .slice(0, 10);
   req.session.correct = 0;
   req.session.totalQuestions = 0;
 

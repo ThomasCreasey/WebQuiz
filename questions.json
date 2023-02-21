@@ -117,9 +117,9 @@
     "answers": ["jim", "young jim"]
   },
   "What is the capital of Luxembourg": {
-      "type": "multi",
-      "image": "/img/lux.jpg",
-      "answers": [
+    "type": "multi",
+    "image": "/img/lux.jpg",
+    "answers": [
       {
         "text": "Amsterdam",
         "correct": false
@@ -143,10 +143,10 @@
     "image": "/img/dog.png",
     "answers": ["perrito", "perito"]
   },
-    "What country is this flag for?": {
-      "type": "multi",
-      "image": "/img/flag2.png",
-      "answers": [
+  "What country is this flag for?": {
+    "type": "multi",
+    "image": "/img/flag2.png",
+    "answers": [
       {
         "text": "Ivory Coast",
         "correct": true
@@ -165,25 +165,25 @@
       }
     ]
   },
-    "Which company is this logo from?": {
-      "type": "single",
-      "image": "/img/logo3.png",
-      "answers": ["bp", "british petroleum"]
-    },
-    "Which company uses this logo?": {
-      "type": "single",
-      "image": "/img/logo4.png",
-      "answers": ["costa", "costa coffee"]
-    },
-    "Which company does this logo represent?": {
-      "type": "single",
-      "image": "/img/logo5.png",
-      "answers": ["cola", "coka", "coca", "coca cola"]
-    },
-    "What country does this flag represent? ": {
-      "type": "multi",
-      "image": "/img/flag3.png",
-      "answers": [
+  "Which company is this logo from?": {
+    "type": "single",
+    "image": "/img/logo3.png",
+    "answers": ["bp", "british petroleum"]
+  },
+  "Which company uses this logo?": {
+    "type": "single",
+    "image": "/img/logo4.png",
+    "answers": ["costa", "costa coffee"]
+  },
+  "Which company does this logo represent?": {
+    "type": "single",
+    "image": "/img/logo5.png",
+    "answers": ["cola", "coka", "coca", "coca cola"]
+  },
+  "What country does this flag represent?": {
+    "type": "multi",
+    "image": "/img/flag3.png",
+    "answers": [
       {
         "text": "Germany",
         "correct": false

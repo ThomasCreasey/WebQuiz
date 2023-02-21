@@ -138,6 +138,11 @@
       }
     ]
   },
+  "What is the name of this dog?": {
+    "type": "single",
+    "image": "/img/dog.png",
+    "answers": ["perrito", "perito"]
+  },
     "What country is this flag for?": {
       "type": "multi",
       "image": "/img/flag2.png",

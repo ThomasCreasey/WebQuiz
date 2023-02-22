@@ -6,10 +6,11 @@ function hide(el) {
 }
 
 $(document).on('submit', '#input-form', function (e) {
+  e.preventDefault();
   const title = document.getElementById('questionTitle').innerText;
+  if(!title) return;
   document.getElementById('single-input-answer').disabled = true;
   document.getElementById('single-input-submit').disabled = true;
-  e.preventDefault();
 
   const answer = document.getElementById('single-input-answer').value;
   $.ajax({

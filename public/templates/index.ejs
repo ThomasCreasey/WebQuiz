@@ -36,12 +36,14 @@
           <h1><%= question %></h1>
         </div>
         <div class="card-body">
-          <img
-            id="questionImage"
-            style="max-height: 35rem"
-            crossorigin="anonymous"
-            class="img-fluid mx-auto d-block"
-          />
+          <div id="image-holder">
+            <img
+              id="questionImage"
+              style="max-height: 35rem"
+              crossorigin="anonymous"
+              class="img-fluid mx-auto d-block"
+            />
+          </div>
 
           <div id="single-input" class="row mt-2">
             <form method="POST" action="/answer" id="input-form">
@@ -75,6 +77,18 @@
             id="correct-answer"
             role="alert"
           ></div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modal-loading" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div
+            class="modal-body d-flex flex-column align-items-center justify-content-center"
+          >
+            <div class="spinner-border" role="status"></div>
+            <p id="modal-loading-text">Loading question...</p>
+          </div>
         </div>
       </div>
     </div>

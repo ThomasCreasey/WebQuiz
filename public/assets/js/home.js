@@ -1,3 +1,5 @@
+var loadingModal = new bootstrap.Modal('#modal-loading');
+
 function show(el) {
   document.getElementById(el).style.display = 'flex';
 }
@@ -8,7 +10,7 @@ function hide(el) {
 $(document).on('submit', '#input-form', function (e) {
   e.preventDefault();
   const title = document.getElementById('questionTitle').innerText;
-  if(!title) return;
+  if (!title) return;
   document.getElementById('single-input-answer').disabled = true;
   document.getElementById('single-input-submit').disabled = true;
 
@@ -108,11 +110,24 @@ $(document).on('click', 'button', function () {
   });
 });
 
-function renderQuestion(question, questionData) {
+async function renderQuestion(question, questionData) {
   if (!question || !questionData) return;
+  loadingModal.show();
+
+  await new Promise((r) => setTimeout(r, 500));
+
   const data = JSON.parse(questionData);
   document.getElementById('questionTitle').innerHTML = `<h1>${question}</h1>`;
-  document.getElementById('questionImage').src = data.image;
+  const img = new Image();
+  img.onload = function () {
+    loadingModal.hide();
+  };
+  img.style = 'max-height: 35rem;';
+  img.classList.add('img-fluid', 'mx-auto', 'd-block');
+  img.setAttribute('crossOrigin', 'anonymous');
+  img.src = data.image;
+  document.getElementById('image-holder').innerHTML = '';
+  document.getElementById('image-holder').appendChild(img);
 
   if (data.type == 'multi') {
     show('multi-input');
